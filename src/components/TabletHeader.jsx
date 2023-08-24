@@ -16,13 +16,13 @@ export default function TabletHeader({ documentWidth }) {
           <Link className="link" to="/mercury">
             <div
               style={
-                documentWidth >= 1440 && planetData.name == "Mercury"
+                documentWidth >= 1440 && planetData?.name == "Mercury"
                   ? {
                       position: "absolute",
                       top: 0,
                       width: "68px",
                       height: "4px",
-                      backgroundColor: `${planetData.color}`,
+                      backgroundColor: `${planetData?.color}`,
                     }
                   : {}
               }
@@ -33,13 +33,13 @@ export default function TabletHeader({ documentWidth }) {
           <Link className="link" to="/venus">
             <div
               style={
-                documentWidth >= 1440 && planetData.name == "Venus"
+                documentWidth >= 1440 && planetData?.name == "Venus"
                   ? {
                       position: "absolute",
                       top: 0,
                       width: "48px",
                       height: "4px",
-                      backgroundColor: `${planetData.color}`,
+                      backgroundColor: `${planetData?.color}`,
                     }
                   : {}
               }
@@ -49,13 +49,13 @@ export default function TabletHeader({ documentWidth }) {
           <Link className="link" to="/earth">
             <div
               style={
-                documentWidth >= 1440 && planetData.name == "Earth"
+                documentWidth >= 1440 && planetData?.name == "Earth"
                   ? {
                       position: "absolute",
                       top: 0,
                       width: "46px",
                       height: "4px",
-                      backgroundColor: `${planetData.color}`,
+                      backgroundColor: `${planetData?.color}`,
                     }
                   : {}
               }
@@ -65,13 +65,13 @@ export default function TabletHeader({ documentWidth }) {
           <Link className="link" to="/mars">
             <div
               style={
-                documentWidth >= 1440 && planetData.name == "Mars"
+                documentWidth >= 1440 && planetData?.name == "Mars"
                   ? {
                       position: "absolute",
                       top: 0,
                       width: "41px",
                       height: "4px",
-                      backgroundColor: `${planetData.color}`,
+                      backgroundColor: `${planetData?.color}`,
                     }
                   : {}
               }
@@ -81,13 +81,13 @@ export default function TabletHeader({ documentWidth }) {
           <Link className="link" to="/jupiter">
             <div
               style={
-                documentWidth >= 1440 && planetData.name == "Jupiter"
+                documentWidth >= 1440 && planetData?.name == "Jupiter"
                   ? {
                       position: "absolute",
                       top: 0,
                       width: "57px",
                       height: "4px",
-                      backgroundColor: `${planetData.color}`,
+                      backgroundColor: `${planetData?.color}`,
                     }
                   : {}
               }
@@ -97,13 +97,13 @@ export default function TabletHeader({ documentWidth }) {
           <Link className="link" to="/saturn">
             <div
               style={
-                documentWidth >= 1440 && planetData.name == "Saturn"
+                documentWidth >= 1440 && planetData?.name == "Saturn"
                   ? {
                       position: "absolute",
                       top: 0,
                       width: "57px",
                       height: "4px",
-                      backgroundColor: `${planetData.color}`,
+                      backgroundColor: `${planetData?.color}`,
                     }
                   : {}
               }
@@ -113,13 +113,13 @@ export default function TabletHeader({ documentWidth }) {
           <Link className="link" to="/uranus">
             <div
               style={
-                documentWidth >= 1440 && planetData.name == "Uranus"
+                documentWidth >= 1440 && planetData?.name == "Uranus"
                   ? {
                       position: "absolute",
                       top: 0,
                       width: "59px",
                       height: "4px",
-                      backgroundColor: `${planetData.color}`,
+                      backgroundColor: `${planetData?.color}`,
                     }
                   : {}
               }
@@ -129,13 +129,13 @@ export default function TabletHeader({ documentWidth }) {
           <Link className="link" to="/neptune">
             <div
               style={
-                documentWidth >= 1440 && planetData.name == "Neptune"
+                documentWidth >= 1440 && planetData?.name == "Neptune"
                   ? {
                       position: "absolute",
                       top: 0,
                       width: "65px",
                       height: "4px",
-                      backgroundColor: `${planetData.color}`,
+                      backgroundColor: `${planetData?.color}`,
                     }
                   : {}
               }
@@ -145,13 +145,13 @@ export default function TabletHeader({ documentWidth }) {
           <Link className="link" to="/pluto">
             <div
               style={
-                documentWidth >= 1440 && planetData.name == "Pluto"
+                documentWidth >= 1440 && planetData?.name == "Pluto"
                   ? {
                       position: "absolute",
                       top: 0,
                       width: "46px",
                       height: "4px",
-                      backgroundColor: `${planetData.color}`,
+                      backgroundColor: `${planetData?.color}`,
                     }
                   : {}
               }
