@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import data from "../../data.json";
 import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
-import icon from "./../../assets/icon-source.svg";
+import icon from "./../../public/assets/icon-source.svg";
 export default function Planet() {
   const params = useParams();
   const [overview, setOverview] = useState(true);

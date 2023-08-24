@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import stars from "./assets/background-stars.svg";
+import stars from "./public/assets/background-stars.svg";
 const GlobalStyled = createGlobalStyle`
 * {
 box-sizing: border-box;

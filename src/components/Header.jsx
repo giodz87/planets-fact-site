@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import styled from "styled-components";
-import chevron from "../../assets/icon-chevron.svg";
-import icon from "../../assets/icon-hamburger.svg";
+import chevron from "../../public/assets/icon-chevron.svg";
+import icon from "../../public/assets/icon-hamburger.svg";
 export default function Header(props) {
   const [hidden, setHidden] = useState(false);
   const closeMenu = () => {
