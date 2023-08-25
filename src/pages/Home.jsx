@@ -7,9 +7,5 @@ export default function Home() {
   useEffect(() => {
     navigate("/mercury");
   }, []);
-  return (
-    <div>
-      <h1>dadadadadadadaw</h1>
-    </div>
-  );
+  return <></>;
 }

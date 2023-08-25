@@ -6,7 +6,7 @@ import icon from "../../public/assets/icon-hamburger.svg";
 export default function Header(props) {
   const [hidden, setHidden] = useState(false);
   const closeMenu = () => {
-    setIsMenuOpen(false);
+    setHidden(false);
   };
   const planetSerch = () => {
     setHidden(!hidden);
@@ -198,8 +198,9 @@ const Section = styled.section`
     flex-direction: column;
     gap: 20px;
     position: absolute;
-    top: 102px;
-    width: 100%;
+    top: 65px;
+    width: 375px;
+    padding: 0 24px 0 24px;
     z-index: 2;
     background-color: #070724;
   }

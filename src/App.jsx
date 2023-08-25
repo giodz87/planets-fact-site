@@ -7,6 +7,10 @@ import Header from "./components/Header";
 import TabletHeader from "./components/TabletHeader";
 import { styled } from "styled-components";
 function App() {
+  const [info, setInfo] = useState(true);
+  const CloseInfo = () => {
+    setInfo(false);
+  };
   const [documentWidth, setDocumentWidth] = useState(
     document.documentElement.clientWidth
   );
