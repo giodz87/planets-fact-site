@@ -203,6 +203,7 @@ const Section = styled.section`
     padding: 0 24px 0 24px;
     z-index: 2;
     background-color: #070724;
+    height: 100%;
   }
   .chevron {
     width: 8px;
